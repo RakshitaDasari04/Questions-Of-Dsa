@@ -6,8 +6,3 @@ int reverseDigits(int num) {
     }
     return rev_num;
 }
- 
-bool isPalindrome(int n) {
-    int rev_n = reverseDigits(n);
-    return (rev_n == n);
-}
